@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support & Help Center - ChinaGo Travel Assistant</title>
+    <meta name="description" content="Find answers to your questions about ChinaGo. Browse our comprehensive help center with guides, FAQs, and troubleshooting tips.">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="assets/styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/logo.png" alt="ChinaGo Logo" class="logo-img">
+                <span class="logo-text">ChinaGo</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="features.html" class="nav-link">Features</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="support.html" class="nav-link active">Support</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="#" class="nav-link download-btn" id="download-btn">
+                    <i class="fab fa-apple"></i> Download
+                </a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1>Help & Support Center</h1>
+                <p>Find answers, get help, and learn how to make the most of ChinaGo</p>
+                <div class="search-box">
+                    <input type="text" placeholder="Search for help articles..." id="help-search">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links -->
+    <section class="quick-links">
+        <div class="container">
+            <div class="quick-links-grid">
+                <a href="#getting-started" class="quick-link-card">
+                    <div class="quick-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Getting Started</h3>
+                    <p>Download, setup, and first steps</p>
+                </a>
+                <a href="#features-help" class="quick-link-card">
+                    <div class="quick-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Using Features</h3>
+                    <p>AI assistant, translation, navigation</p>
+                </a>
+                <a href="#troubleshooting" class="quick-link-card">
+                    <div class="quick-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3>Troubleshooting</h3>
+                    <p>Common issues and solutions</p>
+                </a>
+                <a href="#account" class="quick-link-card">
+                    <div class="quick-icon">
+                        <i class="fas fa-user-cog"></i>
+                    </div>
+                    <h3>Account & Privacy</h3>
+                    <p>Settings, privacy, data management</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Getting Started -->
+    <section id="getting-started" class="help-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Getting Started</h2>
+                <p>Everything you need to begin your journey with ChinaGo</p>
+            </div>
+            <div class="help-content">
+                <div class="help-categories">
+                    <div class="help-category">
+                        <h3><i class="fas fa-download"></i> Installation</h3>
+                        <div class="help-articles">
+                            <div class="help-article">
+                                <h4>How to Download ChinaGo</h4>
+                                <p>ChinaGo is available exclusively on the App Store for iOS devices. Follow these steps:</p>
+                                <ol>
+                                    <li>Open the App Store on your iPhone</li>
+                                    <li>Search for "ChinaGo" or "ChinaGo Travel Assistant"</li>
+                                    <li>Tap "Get" to download the app</li>
+                                    <li>Once installed, open the app and follow the setup wizard</li>
+                                </ol>
+                            </div>
+                            <div class="help-article">
+                                <h4>System Requirements</h4>
+                                <ul>
+                                    <li><strong>iOS Version:</strong> iOS 15.0 or later</li>
+                                    <li><strong>Device:</strong> iPhone 8 or newer recommended</li>
+                                    <li><strong>Storage:</strong> 100MB available space</li>
+                                    <li><strong>Network:</strong> Internet connection for AI features</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="help-category">
+                        <h3><i class="fas fa-cog"></i> Initial Setup</h3>
+                        <div class="help-articles">
+                            <div class="help-article">
+                                <h4>First Time Setup</h4>
+                                <p>When you first open ChinaGo, you'll be guided through a quick setup process:</p>
+                                <ol>
+                                    <li>Grant location permissions for navigation features</li>
+                                    <li>Allow camera access for translation features</li>
+                                    <li>Enable microphone access for voice translation</li>
+                                    <li>Choose your preferred language settings</li>
+                                    <li>Set up AI assistant preferences (optional)</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Help -->
+    <section id="features-help" class="help-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Using ChinaGo Features</h2>
+                <p>Master all the powerful tools at your disposal</p>
+            </div>
+            <div class="features-help-grid">
+                <div class="feature-help">
+                    <div class="feature-help-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Travel Assistant</h3>
+                    <div class="feature-help-content">
+                        <h4>How to Use the AI Assistant</h4>
+                        <p>Simply tap the AI assistant button and ask your question in natural language:</p>
+                        <ul>
+                            <li>"How do I set up Alipay as a foreigner?"</li>
+                            <li>"What's the best way to get from Beijing Airport to the city center?"</li>
+                            <li>"Tell me about Chinese dining etiquette"</li>
+                        </ul>
+                        <h4>Tips for Better Results</h4>
+                        <ul>
+                            <li>Be specific about your location and situation</li>
+                            <li>Ask follow-up questions for more details</li>
+                            <li>The AI learns from context throughout your conversation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="feature-help">
+                    <div class="feature-help-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>Translation Features</h3>
+                    <div class="feature-help-content">
+                        <h4>Text Translation</h4>
+                        <p>Type or paste text in the translation tab for instant results.</p>
+                        <h4>Voice Translation</h4>
+                        <p>Tap the microphone button and speak naturally. Works for both directions.</p>
+                        <h4>Camera Translation</h4>
+                        <p>Point your camera at signs, menus, or documents for real-time translation overlay.</p>
+                        <h4>Offline Translation</h4>
+                        <p>Basic translation works offline. Download language packs in Settings for better offline performance.</p>
+                    </div>
+                </div>
+                <div class="feature-help">
+                    <div class="feature-help-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Navigation & Maps</h3>
+                    <div class="feature-help-content">
+                        <h4>Route Planning</h4>
+                        <p>Search for destinations and choose from multiple transport options:</p>
+                        <ul>
+                            <li>Walking routes with local insights</li>
+                            <li>Driving directions with traffic data</li>
+                            <li>Public transit with real-time updates</li>
+                        </ul>
+                        <h4>External Map Integration</h4>
+                        <p>For public transit, ChinaGo can launch Amap or Baidu Maps with your destination pre-filled.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Troubleshooting -->
+    <section id="troubleshooting" class="help-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Troubleshooting</h2>
+                <p>Solutions to common issues and problems</p>
+            </div>
+            <div class="troubleshooting-grid">
+                <div class="trouble-category">
+                    <h3>App Issues</h3>
+                    <div class="trouble-items">
+                        <div class="trouble-item">
+                            <h4>App Won't Start or Crashes</h4>
+                            <ul>
+                                <li>Force close the app and restart it</li>
+                                <li>Restart your iPhone</li>
+                                <li>Check for app updates in the App Store</li>
+                                <li>Ensure you have iOS 15.0 or later</li>
+                            </ul>
+                        </div>
+                        <div class="trouble-item">
+                            <h4>App Running Slowly</h4>
+                            <ul>
+                                <li>Close other apps running in the background</li>
+                                <li>Check your internet connection</li>
+                                <li>Free up storage space on your device</li>
+                                <li>Restart the app</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="trouble-category">
+                    <h3>Translation Issues</h3>
+                    <div class="trouble-items">
+                        <div class="trouble-item">
+                            <h4>Camera Translation Not Working</h4>
+                            <ul>
+                                <li>Check camera permissions in Settings</li>
+                                <li>Ensure good lighting conditions</li>
+                                <li>Hold the camera steady for clear text</li>
+                                <li>Try switching between translation modes</li>
+                            </ul>
+                        </div>
+                        <div class="trouble-item">
+                            <h4>Voice Translation Not Responding</h4>
+                            <ul>
+                                <li>Check microphone permissions</li>
+                                <li>Speak clearly and avoid background noise</li>
+                                <li>Check your internet connection</li>
+                                <li>Try switching language pairs</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="trouble-category">
+                    <h3>Navigation Issues</h3>
+                    <div class="trouble-items">
+                        <div class="trouble-item">
+                            <h4>Location Not Found</h4>
+                            <ul>
+                                <li>Check location permissions in Settings</li>
+                                <li>Enable "Precise Location" for better accuracy</li>
+                                <li>Try searching with different keywords</li>
+                                <li>Ensure GPS is enabled</li>
+                            </ul>
+                        </div>
+                        <div class="trouble-item">
+                            <h4>External Maps Not Opening</h4>
+                            <ul>
+                                <li>Install the required map app (Amap or Baidu Maps)</li>
+                                <li>Check if the map app is up to date</li>
+                                <li>Restart both apps</li>
+                                <li>Contact support if the issue persists</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Account & Privacy -->
+    <section id="account" class="help-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Account & Privacy</h2>
+                <p>Manage your settings and understand how we protect your data</p>
+            </div>
+            <div class="account-help-grid">
+                <div class="account-category">
+                    <h3><i class="fas fa-shield-alt"></i> Privacy & Data</h3>
+                    <div class="account-content">
+                        <h4>How We Protect Your Privacy</h4>
+                        <ul>
+                            <li>Most data is stored locally on your device</li>
+                            <li>No personal data is shared with third parties</li>
+                            <li>API keys are stored securely in iOS Keychain</li>
+                            <li>You can delete all data by uninstalling the app</li>
+                        </ul>
+                        <h4>Data We Collect</h4>
+                        <ul>
+                            <li>App usage analytics (anonymous)</li>
+                            <li>Crash reports for bug fixes</li>
+                            <li>Location data for navigation (stored locally)</li>
+                            <li>No personal conversations or translation content</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="account-category">
+                    <h3><i class="fas fa-cogs"></i> App Settings</h3>
+                    <div class="account-content">
+                        <h4>Customizing ChinaGo</h4>
+                        <ul>
+                            <li>Language preferences for UI and translation</li>
+                            <li>Notification settings for travel alerts</li>
+                            <li>Default transportation preferences</li>
+                            <li>AI assistant personality settings</li>
+                        </ul>
+                        <h4>Managing Permissions</h4>
+                        <ul>
+                            <li>Go to iPhone Settings → Privacy & Security</li>
+                            <li>Find ChinaGo in the app list</li>
+                            <li>Adjust Location, Camera, and Microphone access</li>
+                            <li>These can be changed anytime</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to the most common questions</p>
+            </div>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is ChinaGo completely free to use?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, ChinaGo is completely free to download and use. All core features including AI assistance, translation, navigation, and travel guides are included at no cost. We believe essential travel tools should be accessible to everyone.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How accurate is the AI travel assistant?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our AI assistant is powered by DeepSeek AI and trained on current China travel information. While it's highly accurate for most common travel scenarios, we recommend verifying critical information like visa requirements or emergency procedures through official sources.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I use ChinaGo without internet?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, many features work offline including basic translation, saved travel guides, and previously downloaded maps. However, AI assistance, real-time navigation, and camera translation require an internet connection for optimal performance.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is my personal data safe?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely. We prioritize privacy by storing most data locally on your device. We don't collect personal conversations, translation content, or location history. API keys are stored securely, and we only collect anonymous usage analytics to improve the app.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Which external map apps does ChinaGo support?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>ChinaGo integrates with Amap (AutoNavi) and Baidu Maps for public transportation routing. When you select public transit options, you can choose to open your destination in either of these apps, which are more comprehensive for China's transit systems.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I report bugs or request features?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We love hearing from users! You can report bugs or request features through the app's feedback feature, by emailing feedback@chinago-ios.app, or using the contact form on our website. We review all feedback and prioritize based on user needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Support -->
+    <section class="contact-support">
+        <div class="container">
+            <div class="support-content">
+                <h2>Still Need Help?</h2>
+                <p>Can't find what you're looking for? Our support team is here to help!</p>
+                <div class="support-options">
+                    <a href="contact.html" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i>
+                        Contact Support
+                    </a>
+                    <a href="mailto:help@chinago-ios.app" class="btn btn-outline">
+                        <i class="fas fa-paper-plane"></i>
+                        Email Us Directly
+                    </a>
+                </div>
+                <p class="response-time">
+                    <i class="fas fa-clock"></i>
+                    We typically respond within 24 hours during business days
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/logo.png" alt="ChinaGo Logo" class="footer-logo-img">
+                        <span class="footer-logo-text">ChinaGo</span>
+                    </div>
+                    <p class="footer-description">
+                        Your comprehensive travel companion for exploring China with confidence.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul class="footer-links">
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="#" id="footer-download">Download App</a></li>
+                        <li><a href="support.html">System Requirements</a></li>
+                        <li><a href="support.html">Release Notes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="support.html">Support</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="support.html">GDPR</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ChinaGo. All rights reserved. Made with ❤️ for travelers exploring China.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html> 
