@@ -420,7 +420,7 @@ a:hover {
 .footer {
     background: #1a1a1a;
     color: white;
-    padding: 4rem 0 2rem;
+    padding: 8rem 0 2rem; margin-top: 6rem;
 }
 
 .footer-content {
